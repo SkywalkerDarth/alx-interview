@@ -5,7 +5,7 @@ def pascal_triangle(n):
     """
     function to find pascals triangle
     
-        Parameters:
+        Args:
             n: integer numbers of rows to generate
 
         Return:
