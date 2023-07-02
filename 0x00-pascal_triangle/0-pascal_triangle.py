@@ -5,11 +5,11 @@ def pascal_triangle(n):
     """
     function to find pascals triangle
     
-        Args:
-            n: integer numbers of rows to generate
+    Args:
+        n: integer numbers of rows to generate
 
-        Return:
-            base: pascal_triangle in an array
+    Return:
+        base: pascal_triangle in an array
     """
     if n <= 0:
         return []
