@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-" Module to generate Pascals triangle in an array "
+""" Module to generate Pascals triangle in an array """
 
 def pascal_triangle(n):
     """
