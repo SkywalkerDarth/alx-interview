@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" Module to find generate Pascals triangle in an array """
+" Module to generate Pascals triangle in an array "
 
 def pascal_triangle(n):
     """
     function to find pascals triangle
     
         Parameters:
-            n(int): numbers of rows to generate
+            n: integer numbers of rows to generate
 
         Return:
             base: pascal_triangle in an array
