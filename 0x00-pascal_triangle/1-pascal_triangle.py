@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-"""factorial function definition"""
+""" Another way of doing factorial function definition"""
 
 
 def factorial(n: int) -> int:
@@ -36,10 +36,10 @@ def pascal_triangle(n: int):
     """Function returns pascal values
     Args: n, input integer
     Return: pascal"""
-    pascal = []
     k = 0
     if n <= 0:
         return []
+    pascal = []
     while k < n:
         pascal.append(combination(k))
         k += 1
