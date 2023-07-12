@@ -12,7 +12,7 @@ def minOperations(n)->int:
     Return:
         Integer, if successful, 0 if not
     """
-    if n == 1:
+    if n <= 1:
         return 0
 
     operations = [0] * (n + 1)
