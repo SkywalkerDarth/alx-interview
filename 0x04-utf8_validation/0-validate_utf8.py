@@ -7,7 +7,7 @@ a valid UTF-8 encoding
 """
 
 
-def validUTF8(data):
+def validUTF8(data) -> bool:
     """
     validUTF8 method
     Args: data(int)
