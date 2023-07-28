@@ -14,6 +14,8 @@ def validUTF8(data) -> bool:
     Return: False, True.
     """
     for byte in data:
+        if type(byte) != int or byte < 0 or byte > 0x10ffff:
+            return False
         if byte >> 7 == 0:
             continue
         elif byte >> 5 == 0b110:
