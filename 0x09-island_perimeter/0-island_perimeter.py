@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-""" island perimeter module """
+""" island perimeter project """
 
 
 def island_perimeter(grid):
